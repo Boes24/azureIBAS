@@ -1,5 +1,3 @@
-using Azure.Data.Tables;
-using Azure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DailyProduction.Models;
+using Azure.Data.Tables;
+using Azure;
 
 namespace IbasAPI.Controllers
 {
